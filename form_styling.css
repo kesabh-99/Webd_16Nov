@@ -1,0 +1,66 @@
+body{
+    text-align: center ;
+    background-image: url(form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size : 100% 100% ; 
+}
+
+table{
+    margin : auto ; 
+    padding : 20px  ;
+}
+
+td{
+    padding : 5px 15px  ; 
+}
+.input{
+    width : 250px ; 
+    padding : 3px 7px ; 
+    font-size : 18px ; 
+    border-radius: 6px ;
+    outline : none ; 
+    border : none ; 
+    border-bottom: cyan 2px solid;
+    transition : all 0.3s ; 
+}
+.input:hover{
+    background-color : black ;
+    color : cyan ; 
+}
+.input:focus{
+    background-color: black;
+    padding : 5px ; 
+    color : cyan ; 
+}
+label{
+    font-size : 17px ; 
+    font-family: cursive;
+    color :  cyan ; 
+}
+.submit{
+    padding : 15px ;
+    margin : 15px ; 
+    color : white ; 
+    background-color : purple ;
+    font-family: cursive;
+    font-size : 18px ; 
+    border-radius: 10% ;
+    outline: none;
+    transition : all 0.3s ; 
+    cursor : pointer ; 
+}
+.submit:hover{
+    padding : 18px ; 
+}
+fieldset{
+    width : 500px ; 
+    margin : auto ;
+    background-color : rgba(0, 0, 0, 0.644) ;
+}
+
+
+
+
+
+
+
